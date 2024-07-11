@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Encryptor - EB</title>
+    <link rel="icon" type="image/png" href="/src/img/icon-logo.jpg">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="/src/img/Logo.png" id="logoImg" alt="">
+            <div class="options modifiers">
+                <div class="inputs-option">
+                    <button id="textInput"><img src="./img/Page icon.png" alt=""></button>
+                    <button id="voiceInput"><img src="./img/Page icon (1).png" alt=""></button>
+                </div>
+                <div class="output-option">
+                    <button id="pt"><img src="./img/Page icon (3).png" alt=""></button>
+                    <button id="es"> <img src="./img/Page icon (2).png" alt=""></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="traductor">
+        <div class="container-input">
+            <textarea name="" id="input-text" placeholder="Ingresa el texto aqui"></textarea>
+            <div class="info">
+                <img src="/src/img/Vector.png" alt="">
+                <span>Solo letras minusculas y sin acentos</span>
+            </div>
+            <div class="container-btns">
+                <div class="container-btns">
+                    <button id="encrypt">Encrypt</button>
+                    <button id="decrypt">Decrypt</button>
+                </div>
+            </div>
+        </div>
+        <div class="container-traduction">
+            <div id="output-text">
+                <img src="./img/Muñeco.png" alt="img">
+                <h3>Ningún mensaje fue encontrado</h3>
+                <span>Ingresa el texto que desees encriptar o desencriptar</span>
+            </div>
+            <button id="copy">Copy</button>
+        </div>
+    </section>
+    <script src="js/encryptor.js"></script>
+</body>
+
+</html>
